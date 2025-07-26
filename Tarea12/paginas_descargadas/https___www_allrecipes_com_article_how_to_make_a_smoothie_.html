@@ -43,7 +43,7 @@ var MMAds = window.MMAds || {};</script>
 <script type="text/javascript" data-glb-js="top" src="/static/4.30.0/cache/eNqNU1FugzAMvdAyzrBJ074mVVMvEBIDLiFBtkPVnn4BbQVKQPsISvyeX4z9UrBoQVN02ouD4sKFkDbwUqzjJnR98OCFC6dvIcrIvLAyDZj2mXwZSfcb4x0SI_gK62eKw5LXPPQCxGAEg88JBm3BZgATQovAGSQKOpQ8Vnl1BNvQHeJjj1r09SFpAG8DFdJQkBTakQGlLe9i5jpksC5tVEmg2z6kvs3pCdPOERjsU0t3i1tM0zBV0yd3jb6VubJ7XYMaEK4HurV003Qcmlb9tSunFUuO5QwEGx1M1vg-v49rD5o00-ZjgGUHFqxTLB1yA_QWLYI3kAvlErX9da3SPa5PefoXCKHh81gSUJYTJ2OryoVAz8dcwufpPK4cJJpqkNF9rCtI_yM5Fpu1sWaEILUswnkzlJmydc5itEl25NS95NUrAm506eBta-zHu-fX6AdA16Tnu61ycRth3YgijW5Sf5z-n4NpeB4F1BxWqZxkYvoBPQjhwA.min.js"></script>
 <script type="text/javascript">
 window.Mntl = window.Mntl || {};
-window.Mntl.csrf = window.Mntl.csrf || window.Mntl.csrfInit('71224adb1d08529fd755e117bc103541', true);window.dataLayer = window.dataLayer || [];
+window.Mntl.csrf = window.Mntl.csrf || window.Mntl.csrfInit('e7c519069ab7c4b0125acf96fa46d2f7', true);window.dataLayer = window.dataLayer || [];
 // moved from gtm.ftl so we can initialize GTM only onLoad. From https://support.google.com/tagmanager/answer/6103696?hl=en
 Mntl.utilities.onLoad(function() {
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;defer=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;j.type="text/javascript";f.parentNode.insertBefore(j,f)})(window,document,'script','dataLayer','GTM-P3X3VT7');
@@ -73,7 +73,7 @@ event: 'ab-proctor',
 : "useDynamicVideoSizes | active | active | 1"
 ,
 "99-7"
-: "rtbTracking | newevents | | 2"
+: "rtbTracking | control | | 0"
 ,
 "99-8"
 : "orion | active | Active | 1"
@@ -207,7 +207,7 @@ window.addEventListener(event[0], event[1], { once: true });
 })(Mntl.fnUtilities || {}, Mntl.CMP);window.dataLayer = window.dataLayer || [];
 (function() {
 var isContinuousScroll = document.querySelector('.mntl-continuous-scroll');
-var pageViewDataAsJSON = {"primaryTaxonomyIds":"6502448|6653922|6653072","fullUrl":"https://www.allrecipes.com/article/how-to-make-a-smoothie/" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"internalSessionId":"nf9559ed80d8b4f0da310b90d862db98a03","internalRequestId":"nf9559ed80d8b4f0da310b90d862db98a03","hid":"","experienceTypeName":"","recircDocIdsFooter":"","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"4.2.74","primaryTaxonomyNames":"Allrecipes|Kitchen Tips|How To","country":"EC","description":"Smoothies are a great opportunity to take healthy food and turn it into a drinkable meal or a post-workout snack. Keep reading to learn how to make a healthy smoothie along with other tips and tricks.","title":"How to Make A Healthy Smoothie" || document.title || '',"authorId":"1013967","viewType":"","documentId":6659489,"revenueGroup":"","contentGroup":"Other","muid":"beca5e54-720f-4c15-a881-a12112c4b93a","lastEditingAuthorId":"1013967","lastEditingUserId":"164822657786966","authorNames":"Carl Hanson","templateId":"110","templateName":"STRUCTUREDCONTENT"};
+var pageViewDataAsJSON = {"revenueGroup":"","contentGroup":"Other","templateId":"110","templateName":"STRUCTUREDCONTENT","muid":"4a65b4c2-d413-4e1a-9247-36bc3cf7d035","lastEditingAuthorId":"1013967","lastEditingUserId":"164822657786966","authorNames":"Carl Hanson","primaryTaxonomyIds":"6502448|6653922|6653072","country":"EC","description":"Smoothies are a great opportunity to take healthy food and turn it into a drinkable meal or a post-workout snack. Keep reading to learn how to make a healthy smoothie along with other tips and tricks.","title":"How to Make A Healthy Smoothie" || document.title || '',"authorId":"1013967","fullUrl":"https://www.allrecipes.com/article/how-to-make-a-smoothie/" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"internalSessionId":"nc34f14e9072c475d9679d659da664f2f13","internalRequestId":"nc34f14e9072c475d9679d659da664f2f13","hid":"","experienceTypeName":"","recircDocIdsFooter":"","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"4.2.74","primaryTaxonomyNames":"Allrecipes|Kitchen Tips|How To","viewType":"","documentId":6659489};
 var scrolledPageData = {};
 var scrolledDocOrdinal;
 var scrolledPage;
@@ -283,8 +283,8 @@ customSeries: ''
 ,tax0: 'Allrecipes'
 ,custom: ''
 ,sweepId: ''
-,rid: 'nf9559ed80d8b4f0da310b90d862db98a03'
-,sid: 'nf9559ed80d8b4f0da310b90d862db98a03'
+,rid: 'nc34f14e9072c475d9679d659da664f2f13'
+,sid: 'nc34f14e9072c475d9679d659da664f2f13'
 }
 ;
 const baseSlotTargeting = {
@@ -363,7 +363,7 @@ isMobile: false,
 isTablet: false,
 isDesktop: true,
 dfpId: '3865',
-publisherProvidedId: 'beca5e54-720f-4c15-a881-a12112c4b93a',
+publisherProvidedId: '4a65b4c2-d413-4e1a-9247-36bc3cf7d035',
 singleRequest: false,
 useLmdFormat: true,
 useOxygen: true,
@@ -489,7 +489,7 @@ sizeOverrides: null
 }
 };
 if (Mntl.AdMetrics) {
-Mntl.AdMetrics.init("6659489", "nf9559ed80d8b4f0da310b90d862db98a03", initialSlots.map(slot => slot.config.id), Date.now(), "0.1");
+Mntl.AdMetrics.init("6659489", "nc34f14e9072c475d9679d659da664f2f13", initialSlots.map(slot => slot.config.id), Date.now(), "0.1");
 } else {
 Mntl.AdMetrics = { pushMetrics: () => {} };
 }
@@ -3843,7 +3843,7 @@ window.Mntl.affiliatePlugins = window.Mntl.affiliatePlugins || [];
 window.Mntl.affiliateLinkRewriter.setMappings( {
 DOC_ID: '6659489'
 ,SITE: 'allrecipes'
-,REQUEST_ID: 'nf9559ed80d8b4f0da310b90d862db98a03'
+,REQUEST_ID: 'nc34f14e9072c475d9679d659da664f2f13'
 }
 );
 window.Mntl.affiliatePlugins.push(window.Mntl.affiliateLinkRewriter.processLink);window.Mntl.externalizeLinks.init();(function (Mntl) {
@@ -3896,7 +3896,7 @@ return sz.join('x');
 // Assign a randomly-generated, eight character, alpha-numeric value to this property.
 setup.advertising.adscheduleid = Math.random().toString(36).substr(2,8);
 // muid - used for audience targeting
-setup.advertising.ppid = 'beca5e54-720f-4c15-a881-a12112c4b93a';
+setup.advertising.ppid = '4a65b4c2-d413-4e1a-9247-36bc3cf7d035';
 let custParams = '';
 custParams += '&' + encodeURIComponent('slot') + '=' + encodeURIComponent('broadmatch');
 const inFocus = window && window.document && window.document.hasFocus();
