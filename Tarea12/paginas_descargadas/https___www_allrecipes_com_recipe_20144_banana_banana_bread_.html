@@ -47,7 +47,7 @@ var MMAds = window.MMAds || {};</script>
 <script type="text/javascript" data-glb-js="top" src="/static/4.30.0/cache/eNqNU1FugzAMvdAyzrBJ074mTVMvEIIBl5Ag22HqTr8EdYW2ptpHUOL3_GLsl4rFCrpqtEE8VEeuhKyDp-o67uI4xQBBuPL2FJMU5pGN68ENt-RjIf2cGH8gM2JosbuleKz5modBgBicYAyaYLQNNArgYhwQWEGSoEfRsTaYR3ATx4d46dGAoXtImiE0kSrpKUoO7ciAsQ3vYu57VrAxb0xNYIcp5r6t6Rmz3hM4nHJLd4vbTNMxtctHu8aeaq3syXZgZoTvB7qdjMt0PLrB_LVL00o1p3oFYpM8LNb4OryWtQctmnnzNsO2AxvWZ6o9cg_0khqE4EALaYm2ObvW2AmvTzr9A4TQ8aGUBKRy0mJs0_oY6faoJbx_HsrSILHUgRT3sW0h_49oLHbXxloRgtyyBIe7oayUe-dsRptlC6ebRFdvCbi3tYeXe2Nf3j0_pzAD-j4_350qi4k1D585m4oIu14MWfRL5uX0_xzMAw4oYNawySVno9Mv-UTvhw.min.js"></script>
 <script type="text/javascript">
 window.Mntl = window.Mntl || {};
-window.Mntl.csrf = window.Mntl.csrf || window.Mntl.csrfInit('83a5faa748b44b7877b6301c11316b39', true);window.dataLayer = window.dataLayer || [];
+window.Mntl.csrf = window.Mntl.csrf || window.Mntl.csrfInit('7c30116233bb7944ae4a5a91e3796835', true);window.dataLayer = window.dataLayer || [];
 // moved from gtm.ftl so we can initialize GTM only onLoad. From https://support.google.com/tagmanager/answer/6103696?hl=en
 Mntl.utilities.onLoad(function() {
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;defer=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;j.type="text/javascript";f.parentNode.insertBefore(j,f)})(window,document,'script','dataLayer','GTM-P3X3VT7');
@@ -86,7 +86,7 @@ event: 'ab-proctor',
 : "useDynamicVideoSizes | active | active | 1"
 ,
 "99-10"
-: "rtbTracking | newevents | | 2"
+: "rtbTracking | control | | 0"
 ,
 "99-11"
 : "orion | active | Active | 1"
@@ -220,7 +220,7 @@ window.addEventListener(event[0], event[1], { once: true });
 })(Mntl.fnUtilities || {}, Mntl.CMP);window.dataLayer = window.dataLayer || [];
 (function() {
 var isContinuousScroll = document.querySelector('.mntl-continuous-scroll');
-var pageViewDataAsJSON = {"country":"EC","description":"This banana bread recipe makes an incredibly moist, delicious loaf with very ripe bananas for loads of banana flavor. It tastes even better toasted!","entryType":"direct","excludeFromComscore":false,"internalSessionId":"n905ffa1472ea44c18d111aa8a6032e2c03","internalRequestId":"n905ffa1472ea44c18d111aa8a6032e2c03","experienceTypeName":"","recircDocIdsFooter":"","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"4.2.74","primaryTaxonomyNames":"Allrecipes|Recipes|Bread|Quick Bread Recipes|Fruit Bread Recipes|Banana Bread","experienceType":"single page","title":"Banana Banana Bread Recipe (with Video)" || document.title || '',"authorId":"156569","viewType":"","documentId":6663850,"revenueGroup":"","contentGroup":"Other","templateName":"RECIPESC","templateId":"120","muid":"cd45a359-03e2-4e61-af8a-48db926c57a6","lastEditingAuthorId":"156569","lastEditingUserId":"166212941283998","fullUrl":"https://www.allrecipes.com/recipe/20144/banana-banana-bread/" + location.hash,"hid":"","primaryTaxonomyIds":"6502448|6651953|6652583|6652919|6652163|6652232"};
+var pageViewDataAsJSON = {"country":"EC","description":"This banana bread recipe makes an incredibly moist, delicious loaf with very ripe bananas for loads of banana flavor. It tastes even better toasted!","entryType":"direct","excludeFromComscore":false,"internalSessionId":"n5845fe55ae0744b4a111a0ebed56308213","internalRequestId":"n5845fe55ae0744b4a111a0ebed56308213","experienceTypeName":"","recircDocIdsFooter":"","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"4.2.74","primaryTaxonomyNames":"Allrecipes|Recipes|Bread|Quick Bread Recipes|Fruit Bread Recipes|Banana Bread","experienceType":"single page","title":"Banana Banana Bread Recipe (with Video)" || document.title || '',"authorId":"156569","viewType":"","documentId":6663850,"revenueGroup":"","contentGroup":"Other","templateName":"RECIPESC","templateId":"120","muid":"d32d08b1-6ff4-46da-a85a-a9f7f498a1ad","lastEditingAuthorId":"156569","lastEditingUserId":"166212941283998","fullUrl":"https://www.allrecipes.com/recipe/20144/banana-banana-bread/" + location.hash,"hid":"","primaryTaxonomyIds":"6502448|6651953|6652583|6652919|6652163|6652232"};
 var scrolledPageData = {};
 var scrolledDocOrdinal;
 var scrolledPage;
@@ -296,8 +296,8 @@ customSeries: ''
 ,tax0: 'Allrecipes'
 ,custom: ''
 ,sweepId: ''
-,rid: 'n905ffa1472ea44c18d111aa8a6032e2c03'
-,sid: 'n905ffa1472ea44c18d111aa8a6032e2c03'
+,rid: 'n5845fe55ae0744b4a111a0ebed56308213'
+,sid: 'n5845fe55ae0744b4a111a0ebed56308213'
 }
 ;
 const baseSlotTargeting = {
@@ -377,7 +377,7 @@ isMobile: false,
 isTablet: false,
 isDesktop: true,
 dfpId: '3865',
-publisherProvidedId: 'cd45a359-03e2-4e61-af8a-48db926c57a6',
+publisherProvidedId: 'd32d08b1-6ff4-46da-a85a-a9f7f498a1ad',
 singleRequest: false,
 useLmdFormat: true,
 useOxygen: true,
@@ -504,7 +504,7 @@ sizeOverrides: null
 }
 };
 if (Mntl.AdMetrics) {
-Mntl.AdMetrics.init("6663850", "n905ffa1472ea44c18d111aa8a6032e2c03", initialSlots.map(slot => slot.config.id), Date.now(), "0.1");
+Mntl.AdMetrics.init("6663850", "n5845fe55ae0744b4a111a0ebed56308213", initialSlots.map(slot => slot.config.id), Date.now(), "0.1");
 } else {
 Mntl.AdMetrics = { pushMetrics: () => {} };
 }
@@ -2857,7 +2857,7 @@ Print
 </svg>
 </button>
 <input type="hidden" value="true" name="print" />
-<input type="hidden" value="83a5faa748b44b7877b6301c11316b39" name="CSRFToken" />
+<input type="hidden" value="7c30116233bb7944ae4a5a91e3796835" name="CSRFToken" />
 </form>
 </div>
 <div class="mm-recipes-social-share__share-wrapper">
@@ -3475,7 +3475,7 @@ Print
 </svg>
 </button>
 <input type="hidden" value="true" name="print" />
-<input type="hidden" value="83a5faa748b44b7877b6301c11316b39" name="CSRFToken" />
+<input type="hidden" value="7c30116233bb7944ae4a5a91e3796835" name="CSRFToken" />
 </form>
 <button id="mm-recipes-made-it_1-0" class="comp mm-recipes-made-it mntl-button" data-tracking-subtype="I Made It" data-doc-id="6663850" data-tracking-target-url="https://www.allrecipes.com/recipe/20144/banana-banana-bread/" data-tracking-subcategory="Rate / Print" data-tracking-container="true" data-tracking-category="Recipe UGC" aria-label="I Made It"> I Made It
 <svg class="icon icon-made-it mntl-button__icon "
@@ -3483,7 +3483,7 @@ Print
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-made-it" href="#icon-made-it"></use>
 </svg>
 </button>
-<div id="mm-recipes-made-it__text_1-0" class="comp mm-recipes-made-it__text mntl-block"><span id="mm-recipes-made-it__count_1-0" class="comp mm-recipes-made-it__count mntl-text-block" data-made-it-count>31,662</span>
+<div id="mm-recipes-made-it__text_1-0" class="comp mm-recipes-made-it__text mntl-block"><span id="mm-recipes-made-it__count_1-0" class="comp mm-recipes-made-it__count mntl-text-block" data-made-it-count>31,663</span>
 <span id="mm-recipes-made-it__body_1-0" class="comp mm-recipes-made-it__body mntl-text-block">home cooks made it!</span></div></div>
 <div id="mm-recipes-nutrition-facts_1-0" class="comp mm-recipes-nutrition-facts mntl-block"><div id="mm-recipes-nutrition-facts-summary_1-0" class="comp mm-recipes-nutrition-facts-summary">
 <h2 class="mm-recipes-nutrition-facts-summary__heading text-headline-300" colspan="2">Nutrition Facts <span class="mm-recipes-nutrition-facts-summary__heading-aside text-body-100">(per serving)</h2>
@@ -5987,7 +5987,7 @@ window.Mntl.affiliatePlugins = window.Mntl.affiliatePlugins || [];
 window.Mntl.affiliateLinkRewriter.setMappings( {
 DOC_ID: '6663850'
 ,SITE: 'allrecipes'
-,REQUEST_ID: 'n905ffa1472ea44c18d111aa8a6032e2c03'
+,REQUEST_ID: 'n5845fe55ae0744b4a111a0ebed56308213'
 }
 );
 window.Mntl.affiliatePlugins.push(window.Mntl.affiliateLinkRewriter.processLink);window.Mntl.externalizeLinks.init();(function (Mntl) {
@@ -6034,7 +6034,7 @@ return sz.join('x');
 // Assign a randomly-generated, eight character, alpha-numeric value to this property.
 setup.advertising.adscheduleid = Math.random().toString(36).substr(2,8);
 // muid - used for audience targeting
-setup.advertising.ppid = 'cd45a359-03e2-4e61-af8a-48db926c57a6';
+setup.advertising.ppid = 'd32d08b1-6ff4-46da-a85a-a9f7f498a1ad';
 let custParams = '';
 custParams += '&' + encodeURIComponent('slot') + '=' + encodeURIComponent('primary');
 const inFocus = window && window.document && window.document.hasFocus();

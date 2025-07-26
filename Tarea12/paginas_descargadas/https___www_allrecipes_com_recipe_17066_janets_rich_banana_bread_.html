@@ -47,7 +47,7 @@ var MMAds = window.MMAds || {};</script>
 <script type="text/javascript" data-glb-js="top" src="/static/4.30.0/cache/eNqNU1FugzAMvdAyzrBJ074mTVMvEIIBl5Ag22HqTr8EdYW2ptpHUOL3_GLsl4rFCrpqtEE8VEeuhKyDp-o67uI4xQBBuPL2FJMU5pGN68ENt-RjIf2cGH8gM2JosbuleKz5modBgBicYAyaYLQNNArgYhwQWEGSoEfRsTaYR3ATx4d46dGAoXtImiE0kSrpKUoO7ciAsQ3vYu57VrAxb0xNYIcp5r6t6Rmz3hM4nHJLd4vbTNMxtctHu8aeaq3syXZgZoTvB7qdjMt0PLrB_LVL00o1p3oFYpM8LNb4OryWtQctmnnzNsO2AxvWZ6o9cg_0khqE4EALaYm2ObvW2AmvTzr9A4TQ8aGUBKRy0mJs0_oY6faoJbx_HsrSILHUgRT3sW0h_49oLHbXxloRgtyyBIe7oayUe-dsRptlC6ebRFdvCbi3tYeXe2Nf3j0_pzAD-j4_350qi4k1D585m4oIu14MWfRL5uX0_xzMAw4oYNawySVno9Mv-UTvhw.min.js"></script>
 <script type="text/javascript">
 window.Mntl = window.Mntl || {};
-window.Mntl.csrf = window.Mntl.csrf || window.Mntl.csrfInit('1d14d573e929ba6ec097c98fd129c05b', true);window.dataLayer = window.dataLayer || [];
+window.Mntl.csrf = window.Mntl.csrf || window.Mntl.csrfInit('e2e38271e3997e7a599b09f360e8a44a', true);window.dataLayer = window.dataLayer || [];
 // moved from gtm.ftl so we can initialize GTM only onLoad. From https://support.google.com/tagmanager/answer/6103696?hl=en
 Mntl.utilities.onLoad(function() {
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;defer=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;j.type="text/javascript";f.parentNode.insertBefore(j,f)})(window,document,'script','dataLayer','GTM-P3X3VT7');
@@ -110,7 +110,7 @@ event: 'ab-proctor',
 : "enableReviewChips | chipsOptional | chipsOptional - review chips are enabled and NOT required to submit reviews | 2"
 ,
 "99-18"
-: "liveIntentConnectedIdTest | active | LiveIntent ConnectedID is disabled | 1"
+: "liveIntentConnectedIdTest | control | LiveIntent ConnectedID is enabled | 0"
 ,
 "99-19"
 : "prebidConfigApi | active | Ad Config API is enabled | 1"
@@ -214,7 +214,7 @@ window.addEventListener(event[0], event[1], { once: true });
 })(Mntl.fnUtilities || {}, Mntl.CMP);window.dataLayer = window.dataLayer || [];
 (function() {
 var isContinuousScroll = document.querySelector('.mntl-continuous-scroll');
-var pageViewDataAsJSON = {"templateName":"RECIPESC","country":"EC","description":"This moist banana bread is made with sour cream and sliced bananas to guarantee tender results and a concentrated banana flavor in every bite.","fullUrl":"https://www.allrecipes.com/recipe/17066/janets-rich-banana-bread/" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"internalSessionId":"n76dc9469420b44e3929f227a43efb38003","internalRequestId":"n76dc9469420b44e3929f227a43efb38003","hid":"","experienceTypeName":"","recircDocIdsFooter":"","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"4.2.74","primaryTaxonomyNames":"Allrecipes|Recipes|Bread|Quick Bread Recipes|Fruit Bread Recipes|Banana Bread|Banana Nut Bread Recipes","title":"Janet\'s Rich Banana Bread Recipe" || document.title || '',"primaryTaxonomyIds":"6502448|6651953|6652583|6652919|6652163|6652232|6652661","authorId":"156569","contentGroup":"Other","muid":"31c33b3e-d427-4d5c-ac14-4c441ea5b907","lastEditingAuthorId":"156569","lastEditingUserId":"162438607060514","templateId":"120","viewType":"","documentId":6649845,"revenueGroup":""};
+var pageViewDataAsJSON = {"fullUrl":"https://www.allrecipes.com/recipe/17066/janets-rich-banana-bread/" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"internalSessionId":"n61ab9083db7f42cfb13d546d11753d8713","internalRequestId":"n61ab9083db7f42cfb13d546d11753d8713","hid":"","experienceTypeName":"","recircDocIdsFooter":"","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"4.2.74","primaryTaxonomyNames":"Allrecipes|Recipes|Bread|Quick Bread Recipes|Fruit Bread Recipes|Banana Bread|Banana Nut Bread Recipes","primaryTaxonomyIds":"6502448|6651953|6652583|6652919|6652163|6652232|6652661","country":"EC","description":"This moist banana bread is made with sour cream and sliced bananas to guarantee tender results and a concentrated banana flavor in every bite.","title":"Janet\'s Rich Banana Bread Recipe" || document.title || '',"authorId":"156569","viewType":"","documentId":6649845,"templateName":"RECIPESC","revenueGroup":"","contentGroup":"Other","templateId":"120","muid":"168105a8-6386-49ab-a164-3e63af89018e","lastEditingAuthorId":"156569","lastEditingUserId":"162438607060514"};
 var scrolledPageData = {};
 var scrolledDocOrdinal;
 var scrolledPage;
@@ -290,8 +290,8 @@ customSeries: ''
 ,tax0: 'Allrecipes'
 ,custom: ''
 ,sweepId: ''
-,rid: 'n76dc9469420b44e3929f227a43efb38003'
-,sid: 'n76dc9469420b44e3929f227a43efb38003'
+,rid: 'n61ab9083db7f42cfb13d546d11753d8713'
+,sid: 'n61ab9083db7f42cfb13d546d11753d8713'
 }
 ;
 const baseSlotTargeting = {
@@ -374,7 +374,7 @@ isMobile: false,
 isTablet: false,
 isDesktop: true,
 dfpId: '3865',
-publisherProvidedId: '31c33b3e-d427-4d5c-ac14-4c441ea5b907',
+publisherProvidedId: '168105a8-6386-49ab-a164-3e63af89018e',
 singleRequest: false,
 useLmdFormat: true,
 useOxygen: true,
@@ -501,7 +501,7 @@ sizeOverrides: null
 }
 };
 if (Mntl.AdMetrics) {
-Mntl.AdMetrics.init("6649845", "n76dc9469420b44e3929f227a43efb38003", initialSlots.map(slot => slot.config.id), Date.now(), "0.1");
+Mntl.AdMetrics.init("6649845", "n61ab9083db7f42cfb13d546d11753d8713", initialSlots.map(slot => slot.config.id), Date.now(), "0.1");
 } else {
 Mntl.AdMetrics = { pushMetrics: () => {} };
 }
@@ -2894,7 +2894,7 @@ Print
 </svg>
 </button>
 <input type="hidden" value="true" name="print" />
-<input type="hidden" value="1d14d573e929ba6ec097c98fd129c05b" name="CSRFToken" />
+<input type="hidden" value="e2e38271e3997e7a599b09f360e8a44a" name="CSRFToken" />
 </form>
 </div>
 <div class="mm-recipes-social-share__share-wrapper">
@@ -3650,7 +3650,7 @@ Print
 </svg>
 </button>
 <input type="hidden" value="true" name="print" />
-<input type="hidden" value="1d14d573e929ba6ec097c98fd129c05b" name="CSRFToken" />
+<input type="hidden" value="e2e38271e3997e7a599b09f360e8a44a" name="CSRFToken" />
 </form>
 <button id="mm-recipes-made-it_1-0" class="comp mm-recipes-made-it mntl-button" data-tracking-subtype="I Made It" data-doc-id="6649845" data-tracking-target-url="https://www.allrecipes.com/recipe/17066/janets-rich-banana-bread/" data-tracking-subcategory="Rate / Print" data-tracking-container="true" data-tracking-category="Recipe UGC" aria-label="I Made It"> I Made It
 <svg class="icon icon-made-it mntl-button__icon "
@@ -3658,7 +3658,7 @@ Print
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-made-it" href="#icon-made-it"></use>
 </svg>
 </button>
-<div id="mm-recipes-made-it__text_1-0" class="comp mm-recipes-made-it__text mntl-block"><span id="mm-recipes-made-it__count_1-0" class="comp mm-recipes-made-it__count mntl-text-block" data-made-it-count>23,547</span>
+<div id="mm-recipes-made-it__text_1-0" class="comp mm-recipes-made-it__text mntl-block"><span id="mm-recipes-made-it__count_1-0" class="comp mm-recipes-made-it__count mntl-text-block" data-made-it-count>23,548</span>
 <span id="mm-recipes-made-it__body_1-0" class="comp mm-recipes-made-it__body mntl-text-block">home cooks made it!</span></div></div>
 <div id="mm-recipes-nutrition-facts_1-0" class="comp mm-recipes-nutrition-facts mntl-block"><div id="mm-recipes-nutrition-facts-summary_1-0" class="comp mm-recipes-nutrition-facts-summary">
 <h2 class="mm-recipes-nutrition-facts-summary__heading text-headline-300" colspan="2">Nutrition Facts <span class="mm-recipes-nutrition-facts-summary__heading-aside text-body-100">(per serving)</h2>
@@ -3684,7 +3684,7 @@ Print
 </table>
 </div>
 <!-- daily values taken from https://www.fda.gov/food/new-nutrition-facts-label/daily-value-new-nutrition-and-supplement-facts-labels as of Feb 2023 -->
-<div id="mm-recipes-nutrition-facts-label_1-0" class="comp mm-recipes-nutrition-facts-label allrecipes-nutrition-facts-label" data-click-tracked="freemarker.template.FalseTemplateBooleanModel@6e6af59e"> <button class="mm-recipes-nutrition-facts-label__button mm-recipes-nutrition-facts-label__button--show text-body-100">
+<div id="mm-recipes-nutrition-facts-label_1-0" class="comp mm-recipes-nutrition-facts-label allrecipes-nutrition-facts-label" data-click-tracked="freemarker.template.FalseTemplateBooleanModel@41be157a"> <button class="mm-recipes-nutrition-facts-label__button mm-recipes-nutrition-facts-label__button--show text-body-100">
 <span class="mm-recipes-nutrition-facts-label__button-text">Show Full Nutrition Label</span>
 <span class="mm-recipes-nutrition-facts-label__button-text">Hide Full Nutrition Label</span>
 </button>
@@ -6121,7 +6121,7 @@ window.Mntl.affiliatePlugins = window.Mntl.affiliatePlugins || [];
 window.Mntl.affiliateLinkRewriter.setMappings( {
 DOC_ID: '6649845'
 ,SITE: 'allrecipes'
-,REQUEST_ID: 'n76dc9469420b44e3929f227a43efb38003'
+,REQUEST_ID: 'n61ab9083db7f42cfb13d546d11753d8713'
 }
 );
 window.Mntl.affiliatePlugins.push(window.Mntl.affiliateLinkRewriter.processLink);window.Mntl.externalizeLinks.init();(function (Mntl) {
@@ -6168,7 +6168,7 @@ return sz.join('x');
 // Assign a randomly-generated, eight character, alpha-numeric value to this property.
 setup.advertising.adscheduleid = Math.random().toString(36).substr(2,8);
 // muid - used for audience targeting
-setup.advertising.ppid = '31c33b3e-d427-4d5c-ac14-4c441ea5b907';
+setup.advertising.ppid = '168105a8-6386-49ab-a164-3e63af89018e';
 let custParams = '';
 custParams += '&' + encodeURIComponent('slot') + '=' + encodeURIComponent('primary');
 const inFocus = window && window.document && window.document.hasFocus();

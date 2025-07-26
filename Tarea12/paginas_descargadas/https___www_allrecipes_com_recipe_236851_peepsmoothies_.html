@@ -47,7 +47,7 @@ var MMAds = window.MMAds || {};</script>
 <script type="text/javascript" data-glb-js="top" src="/static/4.30.0/cache/eNqNU1FugzAMvdAyzrBJ074mTVMvEIIBl5Ag22HqTr8EdYW2ptpHUOL3_GLsl4rFCrpqtEE8VEeuhKyDp-o67uI4xQBBuPL2FJMU5pGN68ENt-RjIf2cGH8gM2JosbuleKz5modBgBicYAyaYLQNNArgYhwQWEGSoEfRsTaYR3ATx4d46dGAoXtImiE0kSrpKUoO7ciAsQ3vYu57VrAxb0xNYIcp5r6t6Rmz3hM4nHJLd4vbTNMxtctHu8aeaq3syXZgZoTvB7qdjMt0PLrB_LVL00o1p3oFYpM8LNb4OryWtQctmnnzNsO2AxvWZ6o9cg_0khqE4EALaYm2ObvW2AmvTzr9A4TQ8aGUBKRy0mJs0_oY6faoJbx_HsrSILHUgRT3sW0h_49oLHbXxloRgtyyBIe7oayUe-dsRptlC6ebRFdvCbi3tYeXe2Nf3j0_pzAD-j4_350qi4k1D585m4oIu14MWfRL5uX0_xzMAw4oYNawySVno9Mv-UTvhw.min.js"></script>
 <script type="text/javascript">
 window.Mntl = window.Mntl || {};
-window.Mntl.csrf = window.Mntl.csrf || window.Mntl.csrfInit('9f02a70f6cdd12a7445e39c7107be085', true);window.dataLayer = window.dataLayer || [];
+window.Mntl.csrf = window.Mntl.csrf || window.Mntl.csrfInit('206808f292eeda1d9215aab9503c84c4', true);window.dataLayer = window.dataLayer || [];
 // moved from gtm.ftl so we can initialize GTM only onLoad. From https://support.google.com/tagmanager/answer/6103696?hl=en
 Mntl.utilities.onLoad(function() {
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;defer=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;j.type="text/javascript";f.parentNode.insertBefore(j,f)})(window,document,'script','dataLayer','GTM-P3X3VT7');
@@ -83,7 +83,7 @@ event: 'ab-proctor',
 : "useDynamicVideoSizes | active | active | 1"
 ,
 "99-9"
-: "rtbTracking | newevents | | 2"
+: "rtbTracking | control | | 0"
 ,
 "99-10"
 : "orion | active | Active | 1"
@@ -217,7 +217,7 @@ window.addEventListener(event[0], event[1], { once: true });
 })(Mntl.fnUtilities || {}, Mntl.CMP);window.dataLayer = window.dataLayer || [];
 (function() {
 var isContinuousScroll = document.querySelector('.mntl-continuous-scroll');
-var pageViewDataAsJSON = {"primaryTaxonomyIds":"6502448|6651953|6652520|6652983","fullUrl":"https://www.allrecipes.com/recipe/236851/peepsmoothies/" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"internalSessionId":"nb15bd85aa3514731a538188d90a942a803","internalRequestId":"nb15bd85aa3514731a538188d90a942a803","hid":"","experienceTypeName":"","recircDocIdsFooter":"","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"4.2.74","primaryTaxonomyNames":"Allrecipes|Recipes|Drinks Recipes|Smoothie Recipes","country":"EC","description":"These quick-and-easy, deliciously cool smoothies are made with a combination of juice, ice, milk, and your favorite Easter marshmallow chicks!","title":"PeepSmoothies Recipe" || document.title || '',"authorId":"1015024","viewType":"","documentId":6564644,"revenueGroup":"","contentGroup":"Other","muid":"077221e8-41e2-40d3-bf09-7e27307cc74c","lastEditingAuthorId":"1015024","lastEditingUserId":"151378030080892","templateId":"120","templateName":"RECIPESC"};
+var pageViewDataAsJSON = {"internalSessionId":"n49b169ef4d184f44ad81a54f44177e0813","internalRequestId":"n49b169ef4d184f44ad81a54f44177e0813","experienceTypeName":"","recircDocIdsFooter":"","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"4.2.74","primaryTaxonomyNames":"Allrecipes|Recipes|Drinks Recipes|Smoothie Recipes","fullUrl":"https://www.allrecipes.com/recipe/236851/peepsmoothies/" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"hid":"","templateId":"120","authorId":"1015024","revenueGroup":"","contentGroup":"Other","country":"EC","description":"These quick-and-easy, deliciously cool smoothies are made with a combination of juice, ice, milk, and your favorite Easter marshmallow chicks!","title":"PeepSmoothies Recipe" || document.title || '',"primaryTaxonomyIds":"6502448|6651953|6652520|6652983","viewType":"","documentId":6564644,"templateName":"RECIPESC","muid":"04b2b089-f3a8-44e0-83fa-9e6cd647a5d0","lastEditingAuthorId":"1015024","lastEditingUserId":"151378030080892"};
 var scrolledPageData = {};
 var scrolledDocOrdinal;
 var scrolledPage;
@@ -293,8 +293,8 @@ customSeries: ''
 ,tax0: 'Allrecipes'
 ,custom: ''
 ,sweepId: ''
-,rid: 'nb15bd85aa3514731a538188d90a942a803'
-,sid: 'nb15bd85aa3514731a538188d90a942a803'
+,rid: 'n49b169ef4d184f44ad81a54f44177e0813'
+,sid: 'n49b169ef4d184f44ad81a54f44177e0813'
 }
 ;
 const baseSlotTargeting = {
@@ -375,7 +375,7 @@ isMobile: false,
 isTablet: false,
 isDesktop: true,
 dfpId: '3865',
-publisherProvidedId: '077221e8-41e2-40d3-bf09-7e27307cc74c',
+publisherProvidedId: '04b2b089-f3a8-44e0-83fa-9e6cd647a5d0',
 singleRequest: false,
 useLmdFormat: true,
 useOxygen: true,
@@ -502,7 +502,7 @@ sizeOverrides: null
 }
 };
 if (Mntl.AdMetrics) {
-Mntl.AdMetrics.init("6564644", "nb15bd85aa3514731a538188d90a942a803", initialSlots.map(slot => slot.config.id), Date.now(), "0.1");
+Mntl.AdMetrics.init("6564644", "n49b169ef4d184f44ad81a54f44177e0813", initialSlots.map(slot => slot.config.id), Date.now(), "0.1");
 } else {
 Mntl.AdMetrics = { pushMetrics: () => {} };
 }
@@ -2573,7 +2573,7 @@ Print
 </svg>
 </button>
 <input type="hidden" value="true" name="print" />
-<input type="hidden" value="9f02a70f6cdd12a7445e39c7107be085" name="CSRFToken" />
+<input type="hidden" value="206808f292eeda1d9215aab9503c84c4" name="CSRFToken" />
 </form>
 </div>
 <div class="mm-recipes-social-share__share-wrapper">
@@ -2955,7 +2955,7 @@ Print
 </svg>
 </button>
 <input type="hidden" value="true" name="print" />
-<input type="hidden" value="9f02a70f6cdd12a7445e39c7107be085" name="CSRFToken" />
+<input type="hidden" value="206808f292eeda1d9215aab9503c84c4" name="CSRFToken" />
 </form>
 <button id="mm-recipes-made-it_1-0" class="comp mm-recipes-made-it mntl-button" data-tracking-subtype="I Made It" data-doc-id="6564644" data-tracking-target-url="https://www.allrecipes.com/recipe/236851/peepsmoothies/" data-tracking-subcategory="Rate / Print" data-tracking-container="true" data-tracking-category="Recipe UGC" aria-label="I Made It"> I Made It
 <svg class="icon icon-made-it mntl-button__icon "
@@ -2987,7 +2987,7 @@ Print
 </table>
 </div>
 <!-- daily values taken from https://www.fda.gov/food/new-nutrition-facts-label/daily-value-new-nutrition-and-supplement-facts-labels as of Feb 2023 -->
-<div id="mm-recipes-nutrition-facts-label_1-0" class="comp mm-recipes-nutrition-facts-label allrecipes-nutrition-facts-label" data-click-tracked="freemarker.template.FalseTemplateBooleanModel@690db9d3"> <button class="mm-recipes-nutrition-facts-label__button mm-recipes-nutrition-facts-label__button--show text-body-100">
+<div id="mm-recipes-nutrition-facts-label_1-0" class="comp mm-recipes-nutrition-facts-label allrecipes-nutrition-facts-label" data-click-tracked="freemarker.template.FalseTemplateBooleanModel@2ba5965a"> <button class="mm-recipes-nutrition-facts-label__button mm-recipes-nutrition-facts-label__button--show text-body-100">
 <span class="mm-recipes-nutrition-facts-label__button-text">Show Full Nutrition Label</span>
 <span class="mm-recipes-nutrition-facts-label__button-text">Hide Full Nutrition Label</span>
 </button>
@@ -4827,7 +4827,7 @@ window.Mntl.affiliatePlugins = window.Mntl.affiliatePlugins || [];
 window.Mntl.affiliateLinkRewriter.setMappings( {
 DOC_ID: '6564644'
 ,SITE: 'allrecipes'
-,REQUEST_ID: 'nb15bd85aa3514731a538188d90a942a803'
+,REQUEST_ID: 'n49b169ef4d184f44ad81a54f44177e0813'
 }
 );
 window.Mntl.affiliatePlugins.push(window.Mntl.affiliateLinkRewriter.processLink);window.Mntl.externalizeLinks.init();(function (Mntl) {
@@ -4874,7 +4874,7 @@ return sz.join('x');
 // Assign a randomly-generated, eight character, alpha-numeric value to this property.
 setup.advertising.adscheduleid = Math.random().toString(36).substr(2,8);
 // muid - used for audience targeting
-setup.advertising.ppid = '077221e8-41e2-40d3-bf09-7e27307cc74c';
+setup.advertising.ppid = '04b2b089-f3a8-44e0-83fa-9e6cd647a5d0';
 let custParams = '';
 custParams += '&' + encodeURIComponent('slot') + '=' + encodeURIComponent('broadmatch');
 const inFocus = window && window.document && window.document.hasFocus();
