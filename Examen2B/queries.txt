@@ -1,0 +1,5 @@
+electron correlations in magnetic nanowires
+QCD viscosities in magnetic fields
+FFBRST transformation in Yang-Mills theory
+adversarial attacks in text-to-image diffusion models
+hybrid robotic arms for agricultural applications
