@@ -1,0 +1,25 @@
+# 🔐 Claves y credenciales
+.env
+*.json
+!config/*.json  
+
+# 📁 Carpetas de datos
+/data/
+index_13langchain/
+
+# ⚙️ Archivos de entorno virtual
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+*.pyc
+__pycache__/
+
+# 🧪 Checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# 💻 Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
